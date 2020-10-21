@@ -62,7 +62,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif , 'NanumBarunGothic'; }
-
+figcaption{
+    font-family: 'Montserrat';
+  }
 h2 {
   font-size: 25px;
   text-transform: uppercase; }
@@ -71,6 +73,12 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.flex-column{
+  flex-direction: column;
+}
+.sec02-text-box{
+margin: auto;
 }
 
   @media (max-width: 600px) {
@@ -137,6 +145,7 @@ h2 {
         text-transform: capitalize;
         font-size: 50px;
       }
+
       .banner h3 {
         margin-top: 20px;
         margin-bottom: 25px;
@@ -154,11 +163,19 @@ h2 {
       background: #f28a2d;
       color: #28140b;
     }
+
+    .btn-default {
+      padding: 7px 8px;
+      font-size: 14px;
+      border-radius: 30px;
+      background: #28140b;
+      color: #f28a2d;
+    }
     
     .red-box{
       width: 80%;
       background: #a12929;
-      padding: 20% 0 30%;
+      padding: 10% 0 15%;
     }
     p.white-text.font-size-25 {
         margin: 40px 0;
@@ -178,6 +195,102 @@ h2 {
   margin: 80px auto;
   max-width: 260px;
 }
+
+.sec01-container{
+  position: relative;
+  width: 100%;
+  height: 1200px;
+  overflow: hidden;
+}
+
+
+#myDiv{
+width: 5000px;
+height: 500px;
+background-color: #f2ca52;
+position: absolute;
+top: 20%;
+left: -30%;
+z-index: -1;
+
+}
+
+
+div#myDiv {
+-ms-transform: rotate(-10deg); /* IE 9 */
+transform: rotate(-10deg); /* Standard syntax */
+}
+
+
+figure.effect-sadie {
+  background: #fff;
+}
+
+.col-sm-6.col-12.col-md-6.col-lg-4.col-xl-4.tm-album-col {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sec02-container{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+#myDiv-2{
+width: 5000px;
+height: 500px;
+background-color: #a12929;
+position: absolute;
+bottom: -66%;
+left: -30%;
+z-index: -1;
+}
+
+.media{
+  display: none;
+}
+
+@media (max-width: 990px){
+  #myDiv-2{
+    bottom: -90%;
+    }
+    .full-size{
+      display: none;
+    }
+  .media{
+    display: block;
+  }
+}
+
+
+div#myDiv-2 {
+-ms-transform: rotate(10deg); /* IE 9 */
+transform: rotate(10deg); /* Standard syntax */
+}
+
+.sec03-h2{
+  margin-top: 0;
+  margin-bottom: 35px;
+  line-height: 35px;
+  text-transform: capitalize;
+  font-size: 50px;
+}
+.footer{
+  padding: 80px;
+  background-color: #a12929;
+  color: #fff;
+}
+.footer div{
+margin: 0 1%;
+}
+.footer-title{
+  font-size: 20px;
+}
+.footer-p{
+  font-size: 15px;
+}
 /*
 
 Template 2101 Insertion
@@ -186,10 +299,7 @@ http://www.tooplate.com/view/2101-insertion
 
 */
 
-.figure.effect-sadie {
-  margin: 10px;
-  background: #fff;
-}
+
 
 
 /*---------------*/
@@ -216,7 +326,7 @@ http://www.tooplate.com/view/2101-insertion
     width: 100%;
     height: 100%;
     padding: 2em;
-    color: #fff;
+    color: #220f09;
     backface-visibility: hidden;
 }
 

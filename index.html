@@ -22,6 +22,8 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
   />
+  <!-- aoa -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <title>PAPAYA</title>
 </head>
@@ -47,10 +49,11 @@
   </nav>
     <div class="banner">
       <div class="container flex-aline sec01-content">
-        <div class="col-sm-6">
+        <div class="col-sm-6" data-aos="fade-up"
+        data-aos-duration="1000">
           <img src="assets/img/sec01-img.png" alt="헤드셋" class="sec01-headphone">
         </div>
-        <div class="col-sm-6 sec01-box">
+        <div class="col-sm-6 sec01-box" data-aos="zoom-in" data-aos-duration="1500">
           <div class="red-box">
             <h2 class="font-size-50">Stan Bluster</h2>
             <!-- sub heading -->
@@ -59,7 +62,12 @@
               완벽하게 업그레이드 된 <br>
               가벼운 헤드셋</p>
             <!-- access button -->
-              <a href="#" class=" sec01-btn Gmarket" style="font-size: 18px;">더 알아보기</a>
+            <div class="wrap">
+              <button class="button">
+                더 알아보기
+              </button>
+            </div>
+
             
           </div>
         <!-- heading -->
@@ -75,53 +83,79 @@
   <div class="container sec02-content">
     
       <div class="row tm-albums-container grid">
-        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
+        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col" data-aos="fade-up-right" data-aos-duration="800">
           <figure class="effect-sadie">
             <img src="assets/img/product01-1.png" alt="Image" class="img-fluid">
             <figcaption>
               <h2>Headphones</h2>
-              <button class="btn">더 알아보기</button>
             </figcaption>
+            <div class="back">
+              <div class="button_base b03_skewed_slide_in">
+                  <div>더 알아보기</div>
+                  <div></div>
+                  <div>더 알아보기</div>
+              </div>
+          </div>
+          
           </figure>
         </div>
-        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
+        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col" data-aos="fade-down-right" data-aos-duration="800">
           <figure class="effect-sadie">
             <img src="assets/img/product02-2.png" alt="Image" class="img-fluid">
             <figcaption>
               <h2>Earphones</h2>
-              <button class="btn">더 알아보기</button>
             </figcaption>
+            <div class="back">
+              <div class="button_base b03_skewed_slide_in">
+                  <div>더 알아보기</div>
+                  <div></div>
+                  <div>더 알아보기</div>
+              </div>
           </figure>
         </div>
-        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
+        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col" data-aos="fade-down-left" data-aos-duration="800">
           <figure class="effect-sadie">
             <img src="assets/img/product03-3.png" alt="Image" class="img-fluid">
             <figcaption>
               <h2>Speakers</h2>
-              <button class="btn">더 알아보기</button>
             </figcaption>
+            <div class="back">
+              <div class="button_base b03_skewed_slide_in">
+                  <div>더 알아보기</div>
+                  <div></div>
+                  <div>더 알아보기</div>
+              </div>
           </figure>
         </div>
-        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
+        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col" data-aos="fade-up-left" data-aos-duration="800">
           <figure class="effect-sadie">
             <img src="assets/img/product04-4.png" alt="Image" class="img-fluid">
             <figcaption>
               <h2>Clip EarPHones</h2>
-              <button class="btn">더 알아보기</button>
             </figcaption>
+            <div class="back">
+              <div class="button_base b03_skewed_slide_in">
+                  <div>더 알아보기</div>
+                  <div></div>
+                  <div>더 알아보기</div>
+              </div>
           </figure>
         </div>
       </div>
       <div class="container flex-aline flex-column">
         <div class="row">
-          <div class="col-sm-6 text-center sec02-text-box">
+          <div class="col-sm-6 text-center sec02-text-box" data-aos="fade-right" data-aos-duration="1000">
             <h1>Speaker Sale</h1>
             <p class="Gmarket" style="font-size: 22px;">인공지능이 탑재된<br>
               똑똑한 스피커<br>
               지금 기회에 마련하세요! </p>
-              <button class="btn-default Gmarket" style="font-size: 18px;">더 알아보기</button>
+            <div class="wrap">
+              <button class="button-2">
+                더 알아보기
+              </button>
+            </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6" data-aos="fade-down" data-aos-duration="1000">
             <img src="assets/img/sec02-img.png" alt="인공지능 스피커" class="sec02-speaker">
           </div>
         </div>
@@ -129,7 +163,7 @@
   </div>
   <div class="container sec00">
     <div class="row">
-      <div class="col-sm-6 sec00-content text-center">
+      <div class="col-sm-6 sec00-content text-center" data-aos="fade-down-left" data-aos-duration="800">
         <h2>ONRY PAPAYA!</h2>
         <p>음향과 착용감이 무엇보다도 중요한 <br>
           헤드셋을 인터넷의 주관적 정보만을 믿 <br>
@@ -139,21 +173,27 @@
           찾기 한층 쉽습니다!  </p>
       </div>
       <div class="col-sm-6 sec00-text-box text-center">
-        <div><i class="fas fa-shopping-bag"></i></div>
-        <div>
-          <h3>best prices on the market</h3>
-          <p>합리적인 가격으로 양질의 제품을
-            판매합니다</p>
+        <div class="selling" data-aos="fade-right" data-aos-duration="1000">
+          <div><i class="fas fa-shopping-bag"></i></div>
+          <div>
+            <h3>best prices on the market</h3>
+            <p>합리적인 가격으로 양질의 제품을
+              판매합니다</p>
+          </div>
         </div>
-        <div><i class="fas fa-truck-moving"></i></div>
-        <div>
-          <h3>Fast delivery</h3>
-          <p>당일 15시 전 주문 건은
-            모두 당일날 출고됩니다.
-            (배송은 통상적으로 택배사영업일 기준
-            2~3영업일 소요됩니다) </p>
+
+        <div class="delivery" data-aos="fade-left" data-aos-duration="1200">
+          <div><i class="fas fa-truck-moving"></i></div>
+          <div>
+            <h3>Fast delivery</h3>
+            <p>당일 15시 전 주문 건은
+              모두 당일날 출고됩니다.
+              (배송은 통상적으로 택배사영업일 기준
+              2~3영업일 소요됩니다) </p>
+          </div>
         </div>
-        <div><i class="fas fa-tag"></i></div>
+<div class="back" data-aos="fade-right" data-aos-duration="1400">
+          <div><i class="fas fa-tag"></i></div>
         <div>
           <h3>money back guaranty</h3>
           <p>마음에 들지 않으셨다면
@@ -161,6 +201,8 @@
             (단 상품 자체에 손상이 간 경우엔 불량을
             제외한 경우 반품/교환이 불가합니다) </p>
         </div>
+</div>
+
       </div>
     </div>
   </div>
@@ -173,35 +215,56 @@
 <!-- sec02 start -->
 <div class="container-fluid sec02-container">
   <div class="container">
-    <h2 class="sec03-h2 text-center" style="color: #f28a2d;">Recommended product</h2>
+    <div class="down-text" data-aos="fade-down" data-aos-duration="800">
+          <h2 class="sec03-h2 text-center" style="color: #f28a2d;" >Recommended product</h2>
+    </div>
+
 
     <div class="full-size">
       <div class="row tm-albums-container-1 grid ">
-        <div class="col-sm-6 col-12 col-md-6 col-lg-4 col-xl-4 tm-album-col">
+        <div class="col-sm-6 col-12 col-md-6 col-lg-4 col-xl-4 tm-album-col" data-aos="fade-right" data-aos-duration="500">
           <figure class="effect-sadie">
             <img src="assets/img/product01-1.png" alt="Image" class="img-fluid">
             <figcaption>
               <h2>Headphones</h2>
-              <button class="btn">더 알아보기</button>
             </figcaption>
+            <div class="back">
+              <div class="button_base b03_skewed_slide_in">
+                  <div>더 알아보기</div>
+                  <div></div>
+                  <div>더 알아보기</div>
+              </div>
+          </div>
           </figure>
         </div>
-        <div class="col-sm-6 col-12 col-md-6 col-lg-4 col-xl-4 tm-album-col">
+        <div class="col-sm-6 col-12 col-md-6 col-lg-4 col-xl-4 tm-album-col" data-aos="fade-right"data-aos-duration="700">
           <figure class="effect-sadie">
             <img src="assets/img/product02-2.png" alt="Image" class="img-fluid">
             <figcaption>
               <h2>Earphones</h2>
-              <button class="btn">더 알아보기</button>
             </figcaption>
+            <div class="back">
+              <div class="button_base b03_skewed_slide_in">
+                  <div>더 알아보기</div>
+                  <div></div>
+                  <div>더 알아보기</div>
+              </div>
+          </div>
           </figure>
         </div>
-        <div class="col-sm-6 col-12 col-md-6 col-lg-4 col-xl-4 tm-album-col">
+        <div class="col-sm-6 col-12 col-md-6 col-lg-4 col-xl-4 tm-album-col" data-aos="fade-right" data-aos-duration="900">
           <figure class="effect-sadie">
             <img src="assets/img/product03-3.png" alt="Image" class="img-fluid">
             <figcaption>
               <h2>Speakers</h2>
-              <button class="btn">더 알아보기</button>
             </figcaption>
+            <div class="back">
+              <div class="button_base b03_skewed_slide_in">
+                  <div>더 알아보기</div>
+                  <div></div>
+                  <div>더 알아보기</div>
+              </div>
+          </div>
           </figure>
         </div>
 
@@ -210,38 +273,56 @@
   
   <div class="container"> 
     <div class="row tm-albums-container-1 grid">
-      <div class="col-sm-6 col-12 col-md-6 col-lg-4 col-xl-4 tm-album-col">
+      <div class="col-sm-6 col-12 col-md-6 col-lg-4 col-xl-4 tm-album-col" data-aos="fade-left" data-aos-duration="900">
         <figure class="effect-sadie">
           <img src="assets/img/product01-1.png" alt="Image" class="img-fluid">
           <figcaption>
             <h2>Headphones</h2>
-            <button class="btn">더 알아보기</button>
           </figcaption>
+          <div class="back">
+            <div class="button_base b03_skewed_slide_in">
+                <div>더 알아보기</div>
+                <div></div>
+                <div>더 알아보기</div>
+            </div>
+        </div>
         </figure>
       </div>
-      <div class="col-sm-6 col-12 col-md-6 col-lg-4 col-xl-4 tm-album-col">
+      <div class="col-sm-6 col-12 col-md-6 col-lg-4 col-xl-4 tm-album-col"data-aos="fade-left" data-aos-duration="700">
         <figure class="effect-sadie">
           <img src="assets/img/product02-2.png" alt="Image" class="img-fluid">
           <figcaption>
             <h2>Earphones</h2>
-            <button class="btn">더 알아보기</button>
           </figcaption>
+          <div class="back">
+            <div class="button_base b03_skewed_slide_in">
+                <div>더 알아보기</div>
+                <div></div>
+                <div>더 알아보기</div>
+            </div>
+        </div>
         </figure>
       </div>
-      <div class="col-sm-6 col-12 col-md-6 col-lg-4 col-xl-4 tm-album-col">
+      <div class="col-sm-6 col-12 col-md-6 col-lg-4 col-xl-4 tm-album-col" data-aos="fade-left" data-aos-duration="500">
         <figure class="effect-sadie">
           <img src="assets/img/product03-3.png" alt="Image" class="img-fluid">
           <figcaption>
             <h2>Speakers</h2>
-            <button class="btn">더 알아보기</button>
           </figcaption>
+          <div class="back">
+            <div class="button_base b03_skewed_slide_in">
+                <div>더 알아보기</div>
+                <div></div>
+                <div>더 알아보기</div>
+            </div>
+        </div>
         </figure>
       </div>
 
     </div>
   </div>
 </div>
-    <div class="container recent media" id="activity">
+    <div class="container recent media" id="activity" data-aos="fade-up" data-aos-duration="1000">
       <div class="row">
         <div class="owl-carousel owl-carousel2 owl-theme">
           <div>
@@ -293,7 +374,7 @@
 <footer class="sec02-container">
   
       <div class="container-fluid flex-aline footer">
-        <div class="col-sm3">
+        <div class="col-sm3" data-aos="fade-down" data-aos-duration="500" >
           <p class="footer-title Gmarket">고객센터</p>
           <p class="footer-p Gmarket">전화 : 02.3446.3775<br>
             팩스 : 02.3446.0000<br>
@@ -301,14 +382,14 @@
             카카오톡 ID : papaya_headphones<br>
             오전 9시부터 오후 6시까지 상담가능합니다.</p>
         </div>
-        <div class="col-sm3">
+        <div class="col-sm3" data-aos="fade-down" data-aos-duration="700">
           <p class="footer-title Gmarket">파파야 무통장 입금 계좌번호</p>
           <p class="footer-p Gmarket">국민은행 : 464801 - 01 - 061719<br>
             우리은행 : 1002 - 032 - 538269<br>
             하나은행 : 231 - 910094 - 22507<br>
             농협 : 084 - 12 - 135951</p>
         </div>
-        <div class="col-sm3">
+        <div class="col-sm3" data-aos="fade-down" data-aos-duration="900">
           <p class="footer-title Gmarket">회사정보</p>
           <p class="footer-p Gmarket">상호 : 파파야(PAPAYA)<br>
             대표 : 김딸기<br>
@@ -319,7 +400,7 @@
             사업자 등록번호 : 211-06-76999<br>
             통신판매업 신고 : 제 영등포 - 3381호</p>
         </div>
-        <div class="col-sm3">
+        <div class="col-sm3" data-aos="fade-down" data-aos-duration="1100">
           <p class="footer-title Gmarket">근무시간</p>
           <p class="footer-p Gmarket">근무시간 : 월 ~ 금 AM 9:00 ~ PM 7:00<br>
             점심시간 : PM12 :00 ~ PM 1 : 00<br>
@@ -337,6 +418,10 @@
   <script src="assets/js/bootstrap.min.js"></script> 
   <script src="assets/js/owl.carousel.min.js"></script> 
   <script src="assets/js/main.js"></script>
-
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

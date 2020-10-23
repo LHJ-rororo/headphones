@@ -563,7 +563,9 @@ img.sec01-headphone {
     width: 100%;
   }
   .footer{
-    display: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px !important;
   }
 }
 

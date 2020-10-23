@@ -501,9 +501,9 @@ z-index: -1;
   display: none;
 }
 
-.sec02-speaker{
+/* .sec02-speaker{
   width: 100%;
-}
+} */
 
 .sec00-content >h2{
   font-size: 3rem;
@@ -543,6 +543,9 @@ img.sec01-headphone {
     }
   .media{
     display: block;
+  }
+  .nav-icon{
+    display: none;
   }
   /* sec01 end */
   /* sec02 start */

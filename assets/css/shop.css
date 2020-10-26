@@ -233,3 +233,39 @@
 .item_photo_box a{ /*width:330px;*/ height:330px;}
 .item_photo_box a img{ width:100%; height:auto;}
 .item_photo_box .item_link .inner{ display:none;}
+
+.shop-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.toolbar{
+    width: 100%;
+    padding: 15px 0 10px;
+    margin-bottom: 50px;
+    background: #fff;
+}
+.wrapper{
+    width: 50%;
+    margin: 0 auto;
+}
+.toolbar-layout{
+    display: flex;
+}
+.layout-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+}
+i.fas.fa-filter {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    margin-right: 5px;
+}
+i.fas.fa-angle-down {
+    margin-bottom: 1rem;
+    margin-left: 5px;
+}

@@ -270,3 +270,17 @@ i.fas.fa-angle-down {
     margin-left: 5px;
 }
 
+.shop-banner>img{
+    width: 100%;
+}
+
+.shop-ul li{
+width:33.333333333333%;    
+}
+
+@media(max-width:767px){
+    .shop-ul li{width: 100%;}
+    .wrapper {
+        width: 100%;
+    }
+}

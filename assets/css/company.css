@@ -1,0 +1,102 @@
+.C-banner{
+    width: 100%;
+    display: flex;
+}
+
+.C-banner-box1{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+margin: auto;
+}
+
+.img-box-01{
+    background: url(../img/company-01.jpg);
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 50rem;
+}
+.C-main-text-01{
+    text-align: end;
+    position: relative;
+}
+.C-main-text-02{
+    text-align: end;
+    position: relative;
+    margin-bottom: 10%;
+}
+.gray-line{
+    width: 50%;
+    height: 30px;
+    margin-left: 50%;
+    background: #eceaf3;
+    position: absolute;
+    top: 40px;
+}
+.long-line{
+    right: 0;
+}
+.shot-line{
+    width: 20%;
+    right: 0;
+}
+.C-banner-box1>div>h2{
+    color: #181818;
+    font-size: 48px;
+    line-height: 1;
+    text-align: start;
+}
+.C-main-p-text{
+    text-align: start;
+}
+
+.C-sec01{
+    width: 100%;
+    height: 50rem;
+    margin: auto;
+}
+.C-sec01-container,.C-sec01-container-02{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.C-sec01-box1,.C-sec01-box2,.C-sec02-box3{
+    width: 50%;
+    height: 30rem;
+}
+.C-sec01-box1{
+    background: url(../img/company-02.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.C-sec01-box2{
+    background: url(../img/company-03.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.C-sec01-box2>h1{
+    position: absolute;
+    bottom: 20px;
+}
+.C-sec02-box3{
+    background: url(../img/company-05.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 63vh;
+}
+.C-sec02-box4{
+    margin: auto;
+}
+
+.C-sec01-img{
+    width: 61%;
+    float: right;
+}
+.C-sec02-box4>h2{
+    font-size: 34px;
+}

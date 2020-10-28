@@ -16,7 +16,9 @@
     display: flex;
     justify-content: center;
   }
-
+	::selection {
+		background-color: #f28a2d;
+	}
 /* Colors */
 /* fonts variable */
 /* @font-face {
@@ -564,12 +566,14 @@ img.sec01-headphone {
     flex-wrap: wrap;
     width: 100%;
   }
+  /* 푸터 미디어쿼리 */
   .footer{
     display: flex;
-    flex-direction: column;
-    padding: 0 20px !important;
-    
+    flex-wrap: wrap;
   }
+  .col-sm-3.footer-content {
+    margin: 0 50px;
+}
 }
 
 

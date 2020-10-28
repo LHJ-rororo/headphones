@@ -119,6 +119,15 @@ margin: auto;
 
 
 @media(max-width:1024px){
+    .C-banner {
+        flex-direction: column;
+    }
+    .col-sm-6.C-banner-box2 {
+        max-width: 100% !important;
+    }
+    .img-box-01{
+        width: 100%;
+    }
     .C-sec01-img {
         width: 100%;}
 
@@ -128,8 +137,25 @@ margin: auto;
     .C-sec02-box3{
         background-size: auto;
     }
-    h1.text-center.Gmarket.aos-init.aos-animate {
+    .C-sec02-box4 {
+        margin-top: 50px;
+        text-align: center;
+    }
+    h1.text-center.Gmarket.aos-init.aos-animate,h1.Gmarket.aos-init.aos-animate {
         font-size: 2rem;
     }
-
+    .C-sec02-box3 {
+        height: 50vh;
+      }
+      .img-box-01 {
+        background: url(../img/company-01.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 50rem;
+    }
+    .C-sec01-box1,.C-sec01-box2,.C-sec02-box3 {
+        width: 100%;
+    }
+    
 }

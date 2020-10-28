@@ -71,17 +71,23 @@ margin: auto;
     background: url(../img/company-02.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .C-sec01-box2{
     background: url(../img/company-03.jpg);
     background-size: 120%;
     background-repeat: no-repeat;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
-.C-sec01-box2>h1{
-    position: absolute;
-    bottom: 20px;
+.C-sec01-box1>h1+p{
+    margin-bottom: 70px;
 }
 .C-sec02-box3{
     background: url(../img/company-05.png);
@@ -94,9 +100,36 @@ margin: auto;
 }
 
 .C-sec01-img{
-    width: 61%;
+    width: 75%;
     float: right;
 }
 .C-sec02-box4>h2{
     font-size: 34px;
+    font-weight: bold;
+}
+.title-span01{
+    background: #a12929;
+    color: #fff;
+    padding: 5px;
+}
+.title-span02{
+    background: #f2ca52;
+    padding: 5px;
+}
+
+
+@media(max-width:1024px){
+    .C-sec01-img {
+        width: 100%;}
+
+    .C-sec01-container, .C-sec01-container-02{
+        flex-direction: column;
+    }
+    .C-sec02-box3{
+        background-size: auto;
+    }
+    h1.text-center.Gmarket.aos-init.aos-animate {
+        font-size: 2rem;
+    }
+
 }

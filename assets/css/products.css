@@ -36,15 +36,18 @@ video#video {
       background: #f2ca52;
   }
 
-
+/* 섹션2 */
 
 #P-section-02{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     position: relative;
 }
 .P-content-01{
     width: 100%;
+}
+.P-content-01>img{
+    width: 40%;
 }
 .P-Ex-01{
     width: 100%;
@@ -55,7 +58,88 @@ video#video {
     z-index: -1;
     text-align: end;
 }
+.P-text-01{
+    width: 50%;
+    height: 350px;
+    float: right;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+}
 .P-content-01>img{
     width: 40%;
     position: relative;
+}
+/* 섹션2 end */
+/* 섹션3 */
+#P-section-03{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+.P-content-02{
+
+}
+.P-Ex-02{
+    background: #f2ca52;
+    height: 30vh;
+}
+.P-text-02{
+    width: 50%;
+    height: 350px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.P-content-02>img{
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* 섹션3 end */
+/* 섹션4 */
+#P-section-04{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+.Psec04-line{
+    position: absolute;
+    left: 5%;
+    width: 80%;
+    height: 30vh;
+    background: #d9d9d9;
+}
+.P-content-03 {
+    position: relative;
+    display: flex;
+}
+.P-content-03>img{
+    width: 100%;
+}
+.P-content-03>img:hover{
+
+}
+.P-sec04-text {
+    position: absolute;
+    top: 15%;
+    left: 85%;
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+.P-sec04-text>img{
+    width: 50%;
 }

@@ -88,6 +88,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    z-index: 1;
 }
 .C-imgbox img{
     width: 15%;
@@ -99,16 +100,40 @@
     width: 25%;
     height: 650px;
     background: #f2ca52;
-    z-index: -99;
     position: absolute;
-    bottom: -40%;
+    bottom: -45%;
     left: 62%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 
-.icon-box i{
-    font-size: 40px;
-    padding: 20px;
+.icon-box img{
+  width: 50px;
+  margin: 20px;
+}
+.T-logo{
+  width: 30px !important;
+}
+
+
+@media (max-width:1000px){
+  .C-textbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.C-imgbox {
+  width: 100%;
+}
+.C-line {
+  width: 100%;
+  height: auto;
+  background: #f2ca52;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
 }

@@ -18,7 +18,14 @@
   }
 	::selection {
 		background-color: #f28a2d;
-	}
+  }
+  
+  .banner-2 {
+    background: #f7f5f5;
+    padding-top: 150px;
+    text-align: center;
+    padding: 70px 0 30px;
+  }
 /* Colors */
 /* fonts variable */
 /* @font-face {
@@ -132,7 +139,7 @@ margin-bottom: 50px !important;
 
 .maine-menu {
   position: absolute;
-  top: 20px; 
+  /* top: 20px;  */
   background: #fff;
 }
   .maine-menu .navbar-nav li .nav-link {

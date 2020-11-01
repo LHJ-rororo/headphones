@@ -1,15 +1,17 @@
 
 video#video {
-    position: absolute;
+    /* position: absolute;
     right: 0;
     top: 15%;
     height: 70vh;
-    width: 65%;
+    width: 65%; */
+    
+    width: 100%;
     z-index: -99;
 }
-.row.P-row {
+/* .row.P-row {
     height: 100vh;
-}
+} */
 
 .P-content-text-01 {
     position: absolute;

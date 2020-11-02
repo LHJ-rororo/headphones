@@ -1,0 +1,132 @@
+.margin-20{
+    margin: 20px 0;
+}
+.margin-0{
+    margin: 0 !important;
+}
+
+.production-selling {
+    position: relative;
+    min-height: 1px;
+}
+
+
+.row{
+    margin-top: 40px;
+}
+.PP-img-box{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.production-image {
+    width: 60%;
+    height: 47vh;
+    background: #fff;
+    float: right;
+}
+.production-text-box {
+    margin-top: 5%;
+    width: 100%;
+    background: #fff;
+}
+.P-text-box{
+    width: 80%;
+    margin: auto;
+}
+/* 상품 옆 작은 슬라이드 */
+.small-slide-box{
+    display: inline-block;
+    margin-left: 20%;
+
+
+
+}
+.col-sm-3.small-box>img {
+    height: 56px;
+    width: 56px;
+    padding: 1%;
+    background: #fff;
+    border:  1px solid #aaa;
+    margin-bottom: 10px;
+}
+
+/* 인풋 편집(갯수+가격) */
+/* 갯수 */
+input[type=text]{border:0;width: 80px;text-align: center;}
+div#input_div {
+    width: auto;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    background: #fff;
+    margin-top: 10%;
+}
+input#moins,input#plus {
+    border: 1px solid #eee;
+    padding: 3%;
+    background: #fff;
+}
+.P-btn {
+    margin-bottom: 20%;
+}
+/* 가격 */
+.price {
+    display: flex;
+    flex-direction: column;
+    /* clear: both; */
+    margin-left: 25%;
+}
+.price-p{
+    display: flex !important;
+    color: rgb(158, 158, 158);
+}
+.price-number{
+    clear: both;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+#total_count,#total_count_view{
+    width: auto;
+    text-align: left;
+}
+/* 버튼 css */
+.example_f {
+    border-radius: 4px;
+    background: linear-gradient(to right, #67b26b, #4ca2cb) !important;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .example_f span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+  }
+  .example_f span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .example_f:hover span {
+    padding-right: 25px;
+  }
+  .example_f:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .add-cart-btn {
+    display: flex;
+    margin-bottom: 10%;
+}

@@ -31,6 +31,7 @@
       <link rel="stylesheet" href="assets/css/Product-page.css">
     </head>
 <body>
+  <!-- 메뉴시작 -->
     <nav class="navbar navbar-expand-md  fixed-top maine-menu">
         <div class="container">
           <a href="index.html">
@@ -52,7 +53,92 @@
         </div>
       </nav>
 <!-- 메뉴 끝 -->
+<div class="production-selling">
 
 
+<div class="banner-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 PP-img-box">
+            <p class="margin-20">헤드셋>전자기헤드셋</p>
+        <div class="img">
+          <div class="production-image">
+            <img src="assets/img/product01-1.png" alt="상품사진">
+          </div>
+          <div class="small-slide-box">
+            <div class="col-sm-3 small-box">
+              <img src="assets/img/product01-1.png" alt="">
+            </div>
+            <div class="col-sm-3 small-box">
+              <img src="assets/img/product01-1.png" alt="">
+            </div>
+            <div class="col-sm-3 small-box">
+              <img src="assets/img/product01-1.png" alt="">
+            </div>
+            <div class="col-sm-3 small-box">
+              <img src="assets/img/product01-1.png" alt="">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-sm-6 production-text-box">
+        <div class="P-text-box">
+          <div class="text">
+            <h1 class="margin-20 text-left">[기간한정] 멀바우 전면책장 2종택1 (라운드,사각)</h1>
+          </div>
+          <div class="P-btn">
+            <div class="sale">
+              <h1 style="display: inline-block; float: left;">10%</h1>
+            </div>
+            <div class="price margin-20">
+              <p class="margin-0 price-p" style="text-decoration: line-through;display: inline-block; float: left;">55000원</p>
+              <div class="price-number">
+            ₩ <input type="text" value="35990" id="total_count" hidden=hidden /> 
+            <input type="text" value="35990" id="total_count_view"  />
+            <hr />                    
+              </div>
+                     
+            </div>
+
+
+            <div id="input_div">
+              <input type="button" value="-" id="moins" onclick="minus()">
+              
+                <input type="text" size="25" value="1" id="count">
+                <input type="button" value="+" id="plus" onclick="plus()">
+            </div>
+          </div>
+          <div class="add-cart-btn">
+            <div class="button_cont" text-align="center"><a class="example_f" href="add-website-here" target="_blank" rel="nofollow"><span>Add To Cart</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var count = 1;
+var countEl = document.getElementById("count");
+var total_count = document.getElementById("total_count"); //추가
+var total_count_view = document.getElementById("total_count_view"); //추가
+function plus(){
+  count++;
+  countEl.value = count;
+  total_count_view.value = total_count.value * countEl.value; //추가
+}
+function minus(){
+  
+  if (count > 1) {
+    count--;
+    countEl.value = count;
+  total_count_view.value = total_count_view.value - total_count.value; //추가  
+  }  
+}
+
+</script>
+
+</div>
 </body>
 </html>

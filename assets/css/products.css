@@ -15,8 +15,8 @@ video#video {
 
 .P-content-text-01 {
     position: absolute;
-    top: 50%;
-    left: 15%;
+    top: 20%;
+    left: 30%;
     /* background: rgba(255, 255, 255, 0.5); */
     color: #f1f1f1;
     width: 30%;
@@ -29,13 +29,11 @@ video#video {
   .P-content-text-01>h2{
       font-size: 90px;
       color: #181818;
-      background: #eee;
   }
   .P-content-text-01>p{
       font-size: 25px;
       color: #181818;
       font-weight: bold;
-      background: #f2ca52;
   }
 
 /* 섹션2 */
@@ -111,14 +109,6 @@ video#video {
     height: 80vh;
     position: relative;
 }
-
-.Psec04-line{
-    position: absolute;
-    left: 5%;
-    width: 80%;
-    height: 30vh;
-    background: #eee;
-}
 .P-content-03 {
     position: relative;
     display: flex;
@@ -161,6 +151,7 @@ video#video {
         height: 80vh;
     }
     .P-content-text-01 {
+        top: 50%;
         left: 0;
         width: 100%;
         padding: 0;
@@ -168,20 +159,21 @@ video#video {
     .P-content-text-01>h2 {
         font-size: 60px;
         text-align: center;
+        background: #eee;
     }
     .P-content-text-01>p {
         font-size: 20px;
         text-align: center;
+        background: #f2ca52;
     }
     #P-section-02 {
         height: 50vh;
     }
     #P-section-03 {
-        height: 70vh;
+        height: 100vh;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: center;
     }
     .P-content-03 {
         display: flex;
@@ -241,4 +233,16 @@ video#video {
     .P-text-02>h1{
         background: #f2ca52;
     }
+}
+
+/* video css */
+.video-bg{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+video{
+    width: 100%;
+    z-index: -99;
 }
